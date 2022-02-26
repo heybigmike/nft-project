@@ -1,18 +1,18 @@
 /* FONTS */
 
-@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400&display=swap');
 
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: 'Poppins', sans-serif;
-  --font-secondary: 'Arvo', serif;
-  --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
+  --font-primary: 'Source Code Pro', Source Code Pro;
+  --font-secondary: 'Source Code Pro', Source Code Pro;
+  --font-code: 'Source Code Pro', Source Code Pro;
+  --bg-color: #000000;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
-  --header-shadow: #000 0px 0px 5px;
+  --accent-color: #000000;
+  --header-shadow: rgb(255, 255, 255) 0px 0px 5px;
 }
 
 * {
@@ -67,7 +67,7 @@ header .container {
   font-style: italic;
   font-weight: bold;
   font-size: 1rem;
-  text-transform: capitalize;
+  text-transform: ;
   transition: all 0.3s ease;
   box-shadow: 4px 4px 0 0 var(--accent-color);
   cursor: pointer;
